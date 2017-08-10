@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.desktop-nav.flex {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1.5rem;
+  height: 4rem;
+  border: solid;
+}
+
+.desktop-nav nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.desktop-nav nav a:hover {
+  text-decoration: underline;
+}
+
+.desktop-nav nav a:last-child {
+  margin-right: 0;
+}
+
+.logo.flex {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
