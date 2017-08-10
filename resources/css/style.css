@@ -31,3 +31,11 @@ html {
 .flex {
   display: flex;
 }
+
+.hero-section {
+  background-color: lightgray;
+}
+
+.hero-section img {
+  
+}
