@@ -3,6 +3,8 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Desktop Nav styles */
+
 .desktop-nav.flex {
   align-items: center;
   justify-content: space-between;
@@ -28,6 +30,8 @@ html {
   align-items: center;
 }
 
+/* Hero Section styles */
+
 .flex {
   display: flex;
 }
@@ -36,6 +40,67 @@ html {
   background-color: lightgray;
 }
 
-.hero-section img {
-  
+.hero-image {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.hero-image img {
+  width: 100%;
+}
+
+.hero-text {
+  margin: auto 0;
+  line-height: 1;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  padding: 2rem 0;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-text a {
+  background: black;
+  padding: .5rem 5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* Campus Info styles */
+
+.campus-info-main {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.campus-info-main img {
+  width: 100%;
+}
+
+.campus-info-main h1 {
+  font-size: 4rem;
+  padding: 2rem 0 1.5rem 0;
+}
+
+.campus-info-main p:last-child {
+  padding: 2rem 0;
+}
+
+.campus-info-main p {
+  font-size: 1.5rem;
+}
+
+.campus-info-links {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.campus-info-links img {
+  width: 35%;
 }
