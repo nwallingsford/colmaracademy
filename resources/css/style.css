@@ -46,7 +46,7 @@ a {
 }
 
 .desktop-nav nav a:hover {
-  text-decoration: underline;
+  border-bottom: solid 1px #D3D3D3;
 }
 
 .desktop-nav nav a:last-child {
@@ -76,7 +76,7 @@ a {
 }
 
 .hero-section {
-  background-color: lightgray;
+  background-color: #D3D3D3;
 }
 
 .hero-image {
@@ -146,7 +146,7 @@ a {
 }
 
 .campus-info-item {
-  border-bottom: solid 1px lightgray;
+  border-bottom: solid 1px #D3D3D3;
 }
 
 .campus-info-image {
@@ -169,7 +169,7 @@ a {
 }
 
 .campus-info-item:last-child {
-  background: lightgray;
+  background: #D3D3D3;
 }
 
 .campus-info-detail span {
@@ -179,7 +179,7 @@ a {
 /* Courses styles */
 
 .courses-section {
-  background: lightgray;
+  background: #D3D3D3;
 }
 
 .courses-title h1 {
@@ -259,7 +259,7 @@ a {
 }
 
 .thesis-info-item:last-child {
-  border-bottom: solid 1px lightgray;
+  border-bottom: solid 1px #D3D3D3;
 }
 
 .thesis-info-image {
@@ -287,7 +287,7 @@ a {
 }
 
 .thesis-info-item:first-child {
-  background: lightgray;
+  background: #D3D3D3;
 }
 
 .thesis-info-detail span {
@@ -295,7 +295,7 @@ a {
 }
 
 footer {
-  border-top: solid 1px lightgray;
+  border-top: solid 1px #D3D3D3;
 }
 
 footer.flex {
