@@ -168,7 +168,6 @@ html {
 .course-item {
   width: 30%;
   background: white;
-  border: solid 1px red;
 }
 
 .course-item img {
@@ -182,4 +181,64 @@ html {
 
 .course-item:nth-child(1n + 4) {
   margin-top: 2rem;
+}
+
+/* Thesis section styles */
+
+.thesis-title h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.thesis-info-main {
+  width: 60%;
+  margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.thesis-info-main video {
+  width: 100%;
+}
+
+.thesis-info-main h1 {
+  font-size: 4rem;
+  padding: 2rem 0 1.5rem 0;
+}
+
+.thesis-info-sidebar {
+  width: 40%;
+}
+
+.thesis-info-sidebar.flex {
+  flex-direction: column;
+}
+
+.thesis-info-item {
+  border: solid 1px;
+}
+
+.thesis-info-image {
+  width: 35%;
+  margin: 1rem;
+}
+
+.thesis-info-sidebar img {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-info-detail {
+  width: 65%;
+}
+
+.thesis-info-detail.flex {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thesis-info-item:first-child {
+  background: lightgray;
+}
+
+.thesis-info-detail span {
+  padding: .5rem 0;
 }
