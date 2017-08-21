@@ -206,6 +206,7 @@ html {
 
 .thesis-info-sidebar {
   width: 40%;
+  margin: 0 1.5rem;
 }
 
 .thesis-info-sidebar.flex {
@@ -241,4 +242,21 @@ html {
 
 .thesis-info-detail span {
   padding: .5rem 0;
+}
+
+footer {
+  border-top: solid 1px lightgray;
+}
+
+footer.flex {
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer span:first-child {
+  margin-right: 1rem;
 }
