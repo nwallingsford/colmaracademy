@@ -234,6 +234,10 @@ a {
   margin-top: 2rem;
 }
 
+.courses-offerings-mobile {
+  display: none;
+}
+
 /* Thesis section styles */
 
 .thesis-title h1 {
@@ -370,4 +374,95 @@ footer span:first-child {
     display: none;
   }
 
+  .campus-info-image {
+    width: auto;
+  }
+
+  .campus-info-detail.flex {
+    margin: 0 1rem;
+  }
+
+  .campus-info-detail {
+    width: auto;
+  }
+
+  .campus-info-detail:last-child > span:nth-child(2) {
+    font-size: 1.5rem;
+  }
+
+  .campus-info-detail.flex span:last-child {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    padding: 0;
+  }
+
+  .campus-info-item:last-child {
+    background: none;
+  }
+
+  .campus-info-item {
+    border-bottom: none;
+  }
+
+  .courses-title {
+    border-top: solid 1px lightgray;
+  }
+
+  .courses-title h1 {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .courses-offerings.flex {
+    display: none;
+  }
+
+  .courses-section {
+    background: none;
+  }
+
+  .courses-offerings-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .course-item-mobile {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 1rem .5rem 1rem;
+    background: lightgray;
+    padding: 1rem 0 1.5rem 1rem;
+  }
+
+  .course-item-mobile:last-child {
+    margin-bottom: 2rem;
+  }
+
+  .thesis-info-sidebar.flex {
+    display: none;
+  }
+
+  .thesis-info-main h1 {
+    display: none;
+  }
+
+  .thesis-info-main p {
+    display: none;
+  }
+
+  .thesis-title {
+    border-top: solid 1px lightgray;
+  }
+
+  .thesis-title h1 {
+    padding: 2rem 0 1rem 0;
+  }
+
+  .thesis-info-main {
+    width: auto;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+  
 }
