@@ -176,6 +176,12 @@ a {
   padding: .5rem 0;
 }
 
+/* Images */
+
+.mobile-img {
+  display: none;
+}
+
 /* Courses styles */
 
 .courses-section {
@@ -305,4 +311,63 @@ footer.flex {
 
 footer span:first-child {
   margin-right: 1rem;
+}
+
+.legal a {
+  color: #333;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 940px) {
+  .hero-section.flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    margin: 0;
+  }
+
+  .hero-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem;
+  }
+
+  .hero-text a {
+    padding: 1.5rem 10rem;
+  }
+
+  .hero-text h1 {
+    padding: 0 0 2rem 0;
+  }
+
+  .hero-text h2 {
+    padding-bottom: 1.5rem;
+  }
+
+  .campus-info-main {
+    display: none;
+  }
+
+  .campus-info-sidebar {
+    width: 100%;
+  }
+
+  .campus-info-item.flex {
+    flex-direction: column;
+  }
+
+  .mobile-img {
+    display: block;
+  }
+
+  .desktop-img {
+    display: none;
+  }
+
 }
